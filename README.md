@@ -63,3 +63,38 @@ Open your terminal and clone this frontend repository:
 ```bash
 git clone https://github.com/rishi1606/GraphQL-Blog-Frontend.git
 cd GraphQL-Blog-Frontend
+```
+
+### Step 2: Install Dependencies
+Install all required React and Apollo Client packages:
+```bash
+npm install
+```
+
+### Step 3: Start the Development Server
+Launch the local Vite development server:
+```bash
+npm run dev
+```
+*Once running, open your web browser and navigate to **[http://localhost:3000](http://localhost:3000)**.*
+
+### Step 4: Verify Production Build (Optional)
+To test the production bundling and ensure zero compilation errors:
+```bash
+npm run build
+```
+*This compiles optimized HTML, CSS, and JavaScript into the `/dist` directory.*
+
+---
+
+## 🧪 How to Test Frontend Features
+
+1. **Search & Filtering**: Type any tech keyword (e.g., `React`, `MongoDB`) in the top search bar. Notice how the application intelligently debounces your input by 350ms before querying the API.
+2. **Creating an Article**: Click the **"+ Create Post"** button in the navbar. Fill in the title, summary, and content, then **drag and drop a local image file** into the dropzone to test Base64 uploading!
+3. **Reading & Deleting**: Click anywhere on an article card to open the reading modal. To test the custom confirmation UI, click the red trash icon on any card.
+4. **Theme Toggling**: Click the Sun/Moon icon in the navbar to smoothly transition between Deep Dark and Crisp Light modes.
+
+---
+
+## 🔗 Related Repository
+- **Backend API Repository**: [https://github.com/rishi1606/GraphQL-Blog-Backend](https://github.com/rishi1606/GraphQL-Blog-Backend)
